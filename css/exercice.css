@@ -46,6 +46,18 @@ align-content: space-between;
 }
 
 /*7. exercice-flex-grow-2 */
+.exercice-flex-grow-2 .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.element-green {
+  flex-grow: 5;
+}
+
+.element-red {
+  flex-grow: 0;
+}
 
 /*8. exercice-flex-grow-3 */
 
